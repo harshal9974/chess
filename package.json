@@ -1,0 +1,38 @@
+{
+    "name": "chess-app-with-video-calling",
+    "version": "1.0.0",
+    "description": "A chess app with integrated video calling for social interaction",
+    "main": "server/index.ts",
+    "scripts": {
+        "start": "bun server/run.ts",
+        "dev": "bun i && bun --watch server/index.ts",
+        "build": "cd client && bun build"
+    },
+    "dependencies": {
+        "bun": "latest",
+        "chessboardjsx": "latest",
+        "cookie-parser": "latest",
+        "esbuild": "latest",
+        "express": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-router-dom": "latest",
+        "socket.io": "latest",
+        "socket.io-client": "latest",
+        "sqlite3": "latest",
+        "uuid": "latest"
+    },
+    "devDependencies": {
+        "@types/cookie-parser": "latest",
+        "@types/express": "latest",
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "@types/react-router-dom": "latest",
+        "@types/socket.io": "latest",
+        "@types/socket.io-client": "latest",
+        "@types/uuid": "latest",
+        "concurrently": "latest",
+        "typescript": "latest"
+    }
+}
